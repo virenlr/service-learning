@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/main_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/home" />
+    </group>
+
+    <group
+        android:id="@+id/programs_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_chapter_1"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_1" />
+
+        <item
+            android:id="@+id/nav_chapter_2"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_2" />
+
+        <item
+            android:id="@+id/nav_chapter_3"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_3" />
+
+        <item
+            android:id="@+id/nav_chapter_4"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_4" />
+
+        <item
+            android:id="@+id/nav_chapter_5"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_5" />
+
+        <item
+            android:id="@+id/nav_chapter_6"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_6" />
+
+        <item
+            android:id="@+id/nav_chapter_7"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_7" />
+
+        <item
+            android:id="@+id/nav_chapter_8"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_8" />
+
+        <item
+            android:id="@+id/nav_chapter_9"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_9" />
+
+        <item
+            android:id="@+id/nav_chapter_10"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_10" />
+
+        <item
+            android:id="@+id/nav_chapter_11"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_11" />
+
+        <item
+            android:id="@+id/nav_chapter_12"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_12" />
+
+        <item
+            android:id="@+id/nav_chapter_13"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_13" />
+
+        <item
+            android:id="@+id/nav_chapter_14"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_14" />
+
+        <item
+            android:id="@+id/nav_chapter_15"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_15" />
+
+        <item
+            android:id="@+id/nav_chapter_16"
+            android:icon="@drawable/ic_action_ch"
+            android:title="@string/chapter_16" />
+
+    </group>
+
+    <group
+        android:id="@+id/misc_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about" />
+    </group>
+</menu>

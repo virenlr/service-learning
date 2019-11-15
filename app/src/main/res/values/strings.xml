@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">S-Learn</string>
+
+    <string name="back_to_exit">Press back one more time to exit.</string>
+
+    <!-- Introduction screen -->
+    <string name="app_introduction_title">Built by Students, for Students</string>
+    <string name="app_introduction">This app was created for you, the student, in keeping with the requirements of the modern Standard-X Science syllabus. We look forward to your valuable input and feedback!</string>
+    <string name="kannada">ಕನ್ನಡ (Kannada)</string>
+    <string name="tamil">தமிழ் (Tamil)</string>
+    <string name="hindi">हिंदी (Hindi)</string>
+
+    <!-- Navigation menu names -->
+    <string name="catchphrase">A little better, everyday.</string>
+    <string name="home">Home</string>
+    <string name="chapter_1">Chapter 1</string>
+    <string name="chapter_2">Chapter 2</string>
+    <string name="chapter_3">Chapter 3</string>
+    <string name="chapter_4">Chapter 4</string>
+    <string name="chapter_5">Chapter 5</string>
+    <string name="chapter_6">Chapter 6</string>
+    <string name="chapter_7">Chapter 7</string>
+    <string name="chapter_8">Chapter 8</string>
+    <string name="chapter_9">Chapter 9</string>
+    <string name="chapter_10">Chapter 10</string>
+    <string name="chapter_11">Chapter 11</string>
+    <string name="chapter_12">Chapter 12</string>
+    <string name="chapter_13">Chapter 13</string>
+    <string name="chapter_14">Chapter 14</string>
+    <string name="chapter_15">Chapter 15</string>
+    <string name="chapter_16">Chapter 16</string>
+
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+    <!-- Strings related to chapters -->
+    <string name="chapter_notes">Chapter notes</string>
+    <string name="additional_reading">Additional reading</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="no_videos_available">No videos available.</string>
+    <string name="part_number">Part %d of %d</string>
+
+    <!-- Strings related to the settings screen -->
+    <string name="please_select_your_language_settings">Please select your language.</string>
+
+    <!-- Strings related to the about screen -->
+    <string name="app_about">This app was designed by the students of CHRIST (Deemed to be University) in an effort to aid the teaching-learning process in government schools across Karnataka. We offer Standard X science courses based on the official textbooks prescribed. We hope that through this initiative, many students will be able to improve their performance in their tests and examinations.</string>
+    <string name="about_the_app">About the app</string>
+    <string name="contact_information">Contact information</string>
+    <string name="contributors">Contributors</string>
+
+</resources>

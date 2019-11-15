@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "38106778085",
+    "firebase_url": "https://service-learning-b76f5.firebaseio.com",
+    "project_id": "service-learning-b76f5",
+    "storage_bucket": "service-learning-b76f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38106778085:android:26f2b1a886ed0e3c58870c",
+        "android_client_info": {
+          "package_name": "in.christuniversity.servicelearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38106778085-f9i9d86drqnu4h0ooghtevk4n6v7o87r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlyjgiA3i-5BI8wHkkBuJCM4bOzf4_riI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38106778085-f9i9d86drqnu4h0ooghtevk4n6v7o87r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

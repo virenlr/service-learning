@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/about_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/colorPrimaryDark"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextTitle"
+                        android:layout_margin="10dp"
+                        android:text="@string/about_the_app" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:justificationMode="inter_word"
+                        android:text="@string/app_about" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/colorPrimaryDark"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextTitle"
+                        android:layout_margin="10dp"
+                        android:text="@string/contact_information" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="For enquiries and feedback, you can email us using the following addresses:" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="jyothi.thomas@christuniversity.in" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="merin.thomas@christuniversity.in" />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/colorPrimaryDark"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextTitle"
+                        android:layout_margin="10dp"
+                        android:text="@string/contributors" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Syllabus review: Anandhan, Ashley, Dinesh, Dominic, Nijon, Nikhil, Pragadeesh, Rohit, Ronald, Vishesh" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Content generation: Jameema, Naman, Nisha, Sanjay, Sanskruti, Serah, Siva Sankari, Stuti, Prajvi, Rachel, Raghav,  Vedant, Vijay" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Material generation: Falguni, Nirupam, Rahul, Richard, Ryan, Samson, Sanket, Serah, Tonin, Tridhe, Varun, Vijay" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Language recording: Cynthia, Falguni, Mithilesh, Nisha, Rachel, Sanjay, Saurabh, Siva Sankari, Vedant, Vijayalakshmi" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Frontend development: Hemanth, Mithesh, Shivam, Sivapriya, Rinchen" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Backend development: Sanket, Sherwin, Rohan, Ronnit" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="App development: Ankit, Elvis, Viren" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Testing: Rakshitha, Samden, Sanjay, Sanjeet, Sreyan, Tejeswar" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Documentation: Nisha, Rachel, Rakshitha, Srikrishnan" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Coordinators: Prof. Jyothi Thomas, Prof. Merin Thomas" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <TextView
+                        style="@style/TextBody"
+                        android:layout_margin="10dp"
+                        android:text="Video editing (Centre for Concept Design): Fr. Viju K. C, Binny Viswanath, Shaji Thomas" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
